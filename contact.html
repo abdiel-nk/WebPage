@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1>
+                <img width="64" height="64" src="https://img.icons8.com/external-flat-icons-pause-08/64/external-bee-farm-and-garden-flat-icons-pause-08.png" alt="external-bee-farm-and-garden-flat-icons-pause-08"/>
+            </h1> 
+               <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Productos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+               </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombreApellido">Nombre y Apellido</label>
+            <input  type="text" id="nombreApellido" class="inputcontacto">
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" class="inputcontacto">
+            <label for="phone">Teléfono</label>
+            <input type="text" id="phone" class="inputcontacto">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="inputcontacto"></textarea>
+            <p >¿Cómo le gustaria ser contactado?</p>
+
+            <div>
+                <label for="radio-email"><input type="radio"
+                name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-phone"><input type="radio" name="contacto" value="Telefono" id="radio-phone">Telefono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                
+            </div>
+            <label for="" class="checkbox"><input type="checkbox">Le gustaria recibir notificaciones de nuestros productos</label>
+           
+           
+            <input type="submit"
+            value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <img class="img-footer" src="imgs/honeycomb.svg" alt="">
+        <p class="copyright">&copy Copyright Honeybee 2024</p>
+    </footer>
+</body>
+</html>
